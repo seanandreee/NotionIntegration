@@ -1,0 +1,1 @@
+This program is designed to automate enrollments for Collegiate's Notion dashboard. Using API requests, this program will take in module data and student data, and create an enrollment accordingly depending on launch dates, grades, etc. 
