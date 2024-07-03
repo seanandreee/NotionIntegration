@@ -1,0 +1,93 @@
+{
+    "object": "page",
+    "id": "594c4798-350c-49a6-9127-7b59c01aec0a",
+    "created_time": "2024-04-15T07:39:00.000Z",
+    "last_edited_time": "2024-04-15T07:39:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "b9057a1f-dd21-4d9d-83ef-7897735e3a32"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "b9057a1f-dd21-4d9d-83ef-7897735e3a32"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+        "type": "database_id",
+        "database_id": "1273b1c0-2869-4665-90d5-9840c41e3881"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+        "Status": {
+            "id": "aH%7C%40",
+            "type": "select",
+            "select": {
+                "id": "4a24dd97-7013-4d81-9ba2-b27d544c5807",
+                "name": "Active",
+                "color": "green"
+            }
+        },
+        "🤔 Test Student": {
+            "id": "bqE%3F",
+            "type": "relation",
+            "relation": [
+                {
+                    "id": "795f958d-8f1a-4670-b6ad-8566c72568f2"
+                }
+            ],
+            "has_more": false
+        },
+        "Test Counselor": {
+            "id": "%7BCAG",
+            "type": "rollup",
+            "rollup": {
+                "type": "array",
+                "array": [
+                    {
+                        "type": "relation",
+                        "relation": []
+                    }
+                ],
+                "function": "show_original"
+            }
+        },
+        "📦 Test Module": {
+            "id": "%7CUl~",
+            "type": "relation",
+            "relation": [
+                {
+                    "id": "dd8e8b82-6080-46ac-956e-dc4bc9327995"
+                }
+            ],
+            "has_more": false
+        },
+        "Name": {
+            "id": "title",
+            "type": "title",
+            "title": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Tiana Kuo - club discovery",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "Tiana Kuo - club discovery",
+                    "href": null
+                }
+            ]
+        }
+    },
+    "url": "https://www.notion.so/Tiana-Kuo-club-discovery-594c4798350c49a691277b59c01aec0a",
+    "public_url": null,
+    "request_id": "7858625a-bef2-4264-bf86-2311f0faf57c"
+}
